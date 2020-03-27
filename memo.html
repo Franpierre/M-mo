@@ -6,6 +6,7 @@
   <title>Mémento</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+   <script type="text/javascript" src="date_heure.js"></script>
 </head>
 <body>
     <li class="nav-item dropdown" id="goTop">
@@ -24,11 +25,96 @@
         </div>
     </li>     
  <h1></h1>
- <p id="para">Sed ut perspic iatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+ <p id="para">Je suis étudiant à la MANU et je crée ce mémento pour pouvoir revoir ce que j'ai appris de temps à autres, bonne lecture.</p>
  <h2 id="whatHtml"><U>Qu'est-ce que le HTML ?</U></h2>
-    <p>Sed ut perspic iatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+    <p>Le langage HTML est un langage qui a été créé au début des années 90, et aujourd’hui
+      nous utilisons la version 5.<br>
+      HTML est l’acronyme de HyperText Markup Language ou langage de balisage
+      d’hypertexte en français. Le HTML est un langage informatique qui permet de structurer
+      des pages web.<br> Les langages de balisage comme le HTML, fonctionnent en entourant du
+      texte brut de balises que l'ordinateur est capable d’interpréter.<br> Ces balises sont souvent imbriquées
+      les unes dans les autres, chacune contenant des informations sur le type et la structure des
+      informations à afficher dans le navigateur.<br> De plus, une balise qui se trouve à l’intérieur d’une autre
+      doit être légèrement décalée par rapport à la balise parent. Cela permet une meilleure compréhension
+      du code et c’est ce que l’on appelle l’indentation.<br>
+      Le W3C (World Wide Web Consortium) est une communauté mondiale qui travaille pour développer
+      les standards du web et qui définit les bonnes pratiques du web mobile.</p>
  <h2 id="HTML"><U>Balise HTML</U></h2>
-  <div id="imgHtml">
+    <div id="baliseHtml">
+      <p>html : Balise principale</p>
+      <p>head : En-tête de la page</p>
+      <p>body : Corps de la page</p>
+      <p>link : Liaison avec une feuille de style</p>
+      <p>meta : Métadonnées de la page web (charset, mots-clés, etc.)</p>
+      <p>script : Code JavaScript</p>
+      <p>style : Code CSS</p>
+      <p>title : Titre de la page</p>
+      <p>abbr : Abréviation</p>
+      <p>blockquote : Citation (longue)</p>
+      <p>cite : Citation du titre d'une œuvre ou d'un évènement</p>
+      <p>q : Citation (courte)</p>
+      <p>sup : Exposant</p>
+      <p>sub : Indice</p>
+      <p>strong : Mise en valeur forte</p>
+      <p>em : Mise en valeur normale</p>
+      <p>mark : Mise en valeur visuelle</p>
+      <p>h1 : Titre de niveau 1</p>
+      <p>h2 : Titre de niveau 2</p>
+      <p>h3 : Titre de niveau 3</p>
+      <p>h4 : Titre de niveau 4</p>
+      <p>h5 : Titre de niveau 5</p>
+      <p>h6 : Titre de niveau 6</p>
+      <p>img : Image</p>
+      <p>figure : Figure (image, code, etc.)</p>
+      <p>figcaption : Description de la figure</p>
+      <p>audio : Son</p>
+      <p>video : Vidéo</p>
+      <p>source : Format source pour les balises"audio"et"video"</p>
+      <p>a : Lien hypertexte</p>
+      <p>br : Retour à la ligne</p>
+      <p>p : Paragraphe</p>
+      <p>hr : Ligne de séparation horizontale</p>
+      <p>address : Adresse de contact</p>
+      <p>del : Texte supprimé</p>
+      <p>ins : Texte inséré</p>
+      <p>dfn : Définition</p>
+      <p>kbd : Saisie clavier</p>
+      <p>pre : Affichage formaté (pour les codes sources)</p>
+      <p>progress : Barre de progression</p>
+      <p>time : Date ou heure</p>
+      <p>ul : Liste à puces, non numérotée</p>
+      <p>ol : Liste numérotée</p>
+      <p>li : Élément de la liste à puces</p>
+      <p>dl : Liste de définitions</p>
+      <p>dt : Terme à définir</p>
+      <p>dd : Définition du terme</p>
+      <p>table : Tableau</p>
+      <p>caption : Titre du tableau</p>
+      <p>tr : Ligne de tableau</p>
+      <p>th : Cellule d'en-tête</p>
+      <p>td : Cellule</p>
+      <p>thead : Section de l'en-tête du tableau</p>
+      <p>tbody : Section du corps du tableau</p>
+      <p>tfoot : Section du pied du tableau</p>
+      <p>form : Formulaire</p>
+      <p>fieldset : Groupe de champs</p>
+      <p>legend : Titre d'un groupe de champs</p>
+      <p>label : Libellé d'un champ</p>
+      <p>input : Champ de formulaire (texte, mot de passe, case à cocher, bouton, etc.)</p>
+      <p>textarea : Zone de saisie multiligne</p>
+      <p>select : Liste déroulante</p>
+      <p>option : Élément d'une liste déroulante</p>
+      <p>optgroup : Groupe d'éléments d'une liste déroulante</p>
+      <p>header : En-tête</p>
+      <p>nav : Liens principaux de navigation</p>
+      <p>footer : Pied de page</p>
+      <p>section : Section de page</p>
+      <p>article : Article (contenu autonome)</p>
+      <p>aside : Informations complémentaires</p>
+      <p>span : Balise générique de type inline</p>
+      <p>div : Balise générique de type block</p> 
+    </div>
+   <div id="imgHtml">
     <img src="https://zupimages.net/up/20/13/evak.png" id="picture1" alt="image de balise1">
     <img src="https://zupimages.net/up/20/13/rrri.png" id="picture2" alt="image de balise2">
     <img src="https://zupimages.net/up/20/13/9ori.png" id="picture3" alt="image de balise3">
@@ -41,7 +127,10 @@
     <img src="https://zupimages.net/up/20/13/1ub9.png" id="picture10" alt="image de balise10">
   </div>
  <h2 id="whatCss"><U>Qu'est-ce que le CSS ?</U></h2>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+    <p>Le terme CSS est l'acronyme anglais de Cascading Style Sheets qui peut se traduire par "feuilles de style en cascade".<br>Le CSS est un langage informatique utilisé sur l'internet pour mettre en forme les fichiers HTML ou XML.<br> Ainsi, les feuilles de style, aussi appelé les fichiers CSS, comprennent du code qui permet de gérer le design d'une page en HTML.<br>
+      Bien que l'HTML puisse être mis en forme à l'aide de balises prévus à cet effet, de nos jours il est plus judicieux d'utiliser le CSS et de n'utiliser le XHTML que pour le contenu.<br>
+      L'avantage de l'utilisation d'un fichier CSS pour la mise en forme d'un site réside dans la possibilité de modifier tous les titres du site en une seule fois en modifiants une seule partie du fichier CSS.<br> Sans ce fichier CSS, il serait nécessaire de modifier chaque titre de chaque page du site (difficilement envisageable pour les énormes sites de plusieurs milliers de pages).<br>
+      D'autres points fort sont perceptible. <br>Il est par exemple possible de créer une feuille de style spécifique pour l'impression des documents, ce qui permet de retirer tous les effets de style et toutes les parties inutile lors de l'impression. <br>De même, une feuille de style peut être utilisée pour les utilisateurs d'un téléphone portable, ce qui permet de mieux gérer la mise en forme particulièrement pour les petits écrans de ces appareils</p>
  <h2 id="CSS"><U>CSS</U></h2> 
     <p>à venir</p>
  <h2 id="GIT"><U>GIT</U></h2>
@@ -52,5 +141,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <span id="date_heure"></span>
+  <script type="text/javascript">window.onload = date_heure('date_heure');</script>
 </body>
 </html>
